@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/home/picture/template/template",
+    "pages/home/picture/bgColorChange/bgColorChange",
+    "pages/home/picture/blurryRepair/blurryRepair",
+    "pages/home/picture/developIng/developIng",
+    "pages/home/picture/oldRepair/oldRepair",
+    "pages/person/person",
+    "pages/person/history/history",
+    "pages/person/suggest/suggest",
+    "pages/person/aboutUs/aboutUs",
+    "pages/person/contactUs/contactUs",
+    "pages/logs/logs",
+    "pages/show/show"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "我的应用",
+    "navigationBarTextStyle":"black", 
+    "enablePullDownRefresh":true,
+    "backgroundColorTop": "#36a0b5"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "icon/_首页.png",
+      "selectedIconPath": "icon/首页.png"
+    },
+    {
+      "pagePath": "pages/person/person",
+      "text": "个人",
+      "iconPath": "icon/_个人.png",
+      "selectedIconPath": "icon/个人.png"  
+    }
+  ],
+  "color": "#000000",
+  "selectedColor": "#00cccc",
+  "backgroundColor": "#e5ffff",
+  "borderStyle": "black"
+  },
+  "style": "v2",
+  
+  "sitemapLocation": "sitemap.json"
+}

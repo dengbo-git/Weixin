@@ -1,0 +1,22 @@
+.function-item-parent{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-content: flex-start;/*取消间隔*/
+  flex-wrap: wrap;
+}
+.function-item-child{
+  flex: 1;
+  margin: 2.5%;
+  min-width: 45%;
+  max-width: 45%;
+  height: 22.5vh;
+}
+.function-item-child-img{
+  height: 80%;
+  width: 100%;
+}
+.function-item-child-text{
+  text-align: center;
+  background-color: #D6D5B7;
+}

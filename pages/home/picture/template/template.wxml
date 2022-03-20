@@ -1,0 +1,13 @@
+<template name="functionItem">
+<view class="function-item-parent">
+  <block wx:for="{{functionItems}}" wx:key="*this">
+    <view class="function-item-child">
+      <navigator style="height: 100%; width: 100%;" target="self" url="{{item.functionRoute}}">
+        <image src="{{item.functionImg}}" class="function-item-child-img"></image>
+        <view class="function-item-child-text">{{item.functionName}}</view>
+      </navigator>
+   </view>
+  </block>
+</view>
+
+</template>

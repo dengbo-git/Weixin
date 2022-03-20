@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="main">
+    <text>QQ:2816300198</text>
+    <image src="{{contactme.qq}}"></image>
+  </view>
+  <view class="main">
+    <text>WX:wrmdxb</text>
+    <image src="{{contactme.wx}}"></image>
+  </view>
+</view>

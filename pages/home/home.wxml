@@ -1,0 +1,22 @@
+<import src="/pages/home/picture/template/template.wxml"/>
+
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <swiper class="page-section" indicator-dots="{{swiper.indicatorDots}}"
+        autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}">
+        <block wx:for="{{swiper.background}}" wx:for-item='item' wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item">
+            <image src="{{item}}" class="img-item"></image>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</view>
+<view class="function-title">功能区</view>
+<view style="background: #E0E3DA;  width: 90%; height: 5rpx; margin: 0 auto;"></view>
+<template is="functionItem" data="{{functionItems}}">
+</template>

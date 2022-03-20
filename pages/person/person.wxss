@@ -1,0 +1,33 @@
+/**index.wxss**/
+.container{
+  margin-top: 12%;
+  height: 100%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+  width: 100%;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.buttom{
+  margin: 15% auto;
+}
+.buttom button{
+  text-align: center;
+  margin: 5px;
+  
+}

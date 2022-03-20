@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+      <view class="usermotto">
+        <button bindtap="getUserProfile">登录</button>
+      </view>
+    </block>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <view class="buttom">
+        <button type="primary" bindtap="goTo" id="history">历史记录</button>
+        <button bindtap="goTo" id="suggest">反馈建议</button>
+        <button bindtap="goTo" id="aboutUs">关于我们</button>
+        <button bindtap="goTo" id="contactUs">联系作者</button>
+      </view>
+    </block>
+  </view>
+  
+</view>

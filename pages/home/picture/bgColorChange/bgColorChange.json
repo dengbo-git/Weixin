@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "image-cropper": "/pages/home/picture/utils/image-cropper/image-cropper"
+  },
+  "navigationBarTitleText": "照片换底",
+  "navigationBarTextStyle": "white",
+  "backgroundColorTop": "#36a0b5"
+}

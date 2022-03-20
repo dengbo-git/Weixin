@@ -1,0 +1,16 @@
+
+<!--index.wxml-->
+<view class="main">
+	<!-- 图片上传（从相册） -->
+	<view class="title">图片上传（从相册）</view>
+	<view class="image-container">
+		<image class="image" src="{{imageObject.fileURL}}" mode="aspectFit"></image>
+	</view>
+	<!-- 图片参数 -->
+	<view class="button-container">
+		<button bindtap='didPressChooesImage' wx:if="{{!isChecked}}">选择图片</button>
+		<button bindtap='didReChoice' wx:else>重新选择</button>
+		<button bindtap='confirmSubmit' disabled="{{!isChecked}}">确认</button>
+	</view>
+
+</view>

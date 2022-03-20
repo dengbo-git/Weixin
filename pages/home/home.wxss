@@ -1,0 +1,25 @@
+@import "/pages/home/picture/template/template.wxss";
+.page-body{
+ padding-top: 0%;
+ height: 170px;
+ width: 100%;
+}
+.swiper-item{
+  display: block;
+  height: 170px;
+}
+.img-item{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.page-section{
+  height: 170px;
+}
+.function-title{
+  padding: 10px ;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+}
+
